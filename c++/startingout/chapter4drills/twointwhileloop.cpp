@@ -5,7 +5,7 @@ int main()
 {
     double number1 = 0;
     double number2 = 0;
-    std::cout << "Enter a digit to print, or | to exit: \n";
+    std::cout << "Enter two digits to print, or | to exit: \n";
     while (std::cin>>number1>>number2)
     {
 
@@ -21,6 +21,6 @@ int main()
         if (fabs(number1-number2)<=.01)
             std::cout << "The numbers are almost equal.\n";
 
-        std::cout << "Enter a digit to print, or | to exit: \n";
+        std::cout << "Enter two digits to print, or | to exit: \n";
     }
 }
