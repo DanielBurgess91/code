@@ -21,7 +21,7 @@ int main()
         else if (number2>number1)
             cout << number2 << " is greater than " << number1 << ".\n";
 
-        if (0.01==absnumberdifference || 0.01>absnumberdifference)
+        if (absnumberdifference<=0.01)
             cout << "The numbers are almost equal.\n";
 
         cout << "Enter a digit to print, or | to exit: \n";
